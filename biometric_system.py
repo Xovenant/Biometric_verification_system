@@ -783,7 +783,7 @@ class BiometricVerificationSystem:
         header_frame.grid(row=0, column=0, sticky='ew', padx=20, pady=20)
         header_frame.grid_columnconfigure(1, weight=1)
         
-        ttk.Label(header_frame, text="Examination Hall Verification", 
+        ttk.Label(header_frame, text="Test Hall Verification", 
                  font=('Arial', 18, 'bold')).grid(row=0, column=0, columnspan=3, pady=(0, 15))
         
         # Verification method selection
@@ -2839,4 +2839,5 @@ class BiometricVerificationSystem:
         verification_frame.grid_rowconfigure(1, weight=1)
         verification_frame.grid_columnconfigure(0, weight=1)
         
+
         #
